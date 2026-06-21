@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0d1117; /* Fondo oscuro estilo GitHub */
+    color: #c9d1d9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: #161b22 !important;
+    border-bottom: 1px solid #21262d;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand:hover {
+    color: #58a6ff !important;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.bg-alt {
+    background-color: #161b22;
+}
+
+.hero {
+    min-height: calc(100vh - 120px);
+}
+
+.nombre {
+    color: #58a6ff;
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+h2 {
+    color: #c9d1d9;
+    font-weight: 500;
+}
+
+p {
+    color: #8b949e;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Títulos de secciones */
+.titulo-seccion {
+    color: #f0f6fc;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.linea-decorativa {
+    width: 60px;
+    height: 4px;
+    background-color: #58a6ff;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.texto-sobremi {
+    font-size: 1.15rem;
+    color: #c9d1d9;
+}
+
+/* Botones */
+.botones {
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #1f6feb;
+    border-color: #388bfd;
+}
+
+.btn-primary:hover {
+    background-color: #388bfd;
+    border-color: #58a6ff;
+}
+
+/* Foto de Perfil */
+.fotoPerfil {
+    max-width: 320px;
+    border-radius: 50%;
+    border: 6px solid #21262d;
+    box-shadow: 0 0 20px rgba(88, 166, 255, 0.2);
+}
+
+/* Tarjetas de Habilidades */
+.card-habilidad {
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card-habilidad:hover {
+    transform: translateY(-5px);
+    border-color: #58a6ff;
+}
+
+.card-habilidad h5 {
+    color: #f0f6fc;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+/* Colores personalizados para íconos de tecnología */
+.text-purple { color: #7952b3; }
+.text-orange { color: #f06529; }
+
+/* Tarjetas de Proyectos */
+.card-proyecto {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-proyecto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border-color: #444c56;
+}
+
+.card-proyecto .btn-link {
+    color: #58a6ff;
+    font-weight: 500;
+}
+
+.card-proyecto .btn-link:hover {
+    color: #79c0ff;
+}
+
+.badge {
+    background-color: #21262d !important;
+    border: 1px solid #30363d;
+    color: #8b949e;
+    padding: 6px 12px;
+    font-weight: 500;
+}
+
+/* Sección de Contacto */
+.enlace-contacto {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-contacto {
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.card-contacto:hover {
+    background: #1f6feb;
+    color: #fff;
+    border-color: #388bfd;
+    transform: scale(1.05);
+}
+
+footer p {
+    color: #8b949e !important;
+}
